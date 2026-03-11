@@ -1,0 +1,23 @@
+# datasets
+final_lung/
+
+/venv
+
+# nnunet outputs
+nnunet_workspace/
+
+# medical images
+*.dcm
+*.nii
+*.nii.gz
+
+# model weights
+*.pth
+
+# nnunet tensors
+*.b2nd
+*.pkl
+
+# python cache
+__pycache__/
+*.pyc
